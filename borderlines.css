@@ -1,0 +1,114 @@
+        @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,700&display=swap');
+         * {
+         box-sizing: border-box;
+         margin-top: 0px;
+         }
+         body {
+         color: #878787;
+         margin: 0;
+         font-family: "Raleway", sans-serif !important;
+         text-align: center;
+         }
+         .top-image {
+         max-width: 1000px;
+         text-align: center;
+         margin-top: 20px;
+         }
+         a {
+         text-decoration: none;
+         }
+         .nav-container {
+         height: 100px;
+         display: flex;
+         }
+         .nav-div {
+            float: left;
+            width: 50%;
+         }
+         .nav-bar {
+         list-style-type: none;
+         display: flex;
+         float: right;
+         padding-top: 20px;
+         padding-right: 20px;
+         }
+         .nav-bar-link {
+         color: #4f4f4f;
+         font-size: 18px;
+         letter-spacing: 2px;
+         padding: 20px;
+         }
+         .main-header-title {
+         text-align: left;
+         font-size: 40px;
+         color: #4f4f4f;
+         text-transform: uppercase;
+         font-weight: normal;
+         padding-top: 20px;
+         padding-left: 50px;
+         letter-spacing: 5px;
+         }
+         a {
+         color: inherit;
+         }
+         .spotify {
+         margin-top: 30px;
+         }
+         hr {
+            width: 400px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+         }
+         .quote {
+         color: #4f4f4f;
+         font-size: 25px;
+         letter-spacing: 2px;
+         }
+         .box {
+         width: 1000px;
+         margin: auto;
+         display: flex;
+         }
+         .card {
+         width: 500px;
+         padding: 0px;
+         text-align: left;
+         height: 320px;
+         margin: 0px;
+         }
+         .main-header-intro {
+         line-height: 1.5em;
+         width: 50%;
+         margin: auto;
+         padding: 40px;
+         color: #333333;
+         text-align: justify;
+         }
+         .description {
+         line-height: 1.6;
+         padding-top: 120px;
+         padding-right: 20px;
+         }
+         .soundcloud {
+         margin-top: 20px;
+         padding-left: 20px;
+         padding-top: 20px
+         }
+         .about {
+         width: 1000px;
+         margin: auto;
+         text-align: left;
+         padding-top: 30px;
+         padding-bottom: 30px;
+         line-height: 1.6;
+         }
+         .borderlines-lyrics {
+         max-width: 1000px;
+         text-align: center;
+         margin-bottom: 60px;
+         border: 1px solid black;
+         }
+         .footer {
+         height: 40px;
+         padding: 5px;
+         }

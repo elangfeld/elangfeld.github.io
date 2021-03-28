@@ -1,0 +1,98 @@
+        @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,700&display=swap');
+         * {
+         box-sizing: border-box;
+         margin-top: 0px;
+         }
+         body {
+         color: #878787;
+         margin: 0;
+         font-family: "Raleway", sans-serif !important;
+         text-align: center;
+         }
+         img {
+         max-width: 100%;
+         }
+         a {
+         text-decoration: none;
+         }
+         .nav-container {
+         height: 100px;
+         display: flex;
+         }
+         .nav-div {
+            float: left;
+            width: 50%;
+         }
+         .nav-bar {
+         list-style-type: none;
+         display: flex;
+         float: right;
+         padding-top: 20px;
+         padding-right: 20px;
+         }
+         .nav-bar-link {
+         color: #4f4f4f;
+         font-size: 18px;
+         letter-spacing: 2px;
+         padding: 20px;
+         }
+         .nav-background {
+         background: url("imgs/soak-cover-photo.jpg") top;
+         background-size: cover;
+         min-height: 1000px;
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         }
+         .main-header-title {
+         text-align: left;
+         font-size: 40px;
+         color: #4f4f4f;
+         text-transform: uppercase;
+         font-weight: normal;
+         padding-top: 20px;
+         padding-left: 50px;
+         letter-spacing: 5px;
+         }
+         a {
+         color: inherit;
+         }
+         .listen-now {
+         font-size: 25px;
+         color: #4f4f4f;
+         text-transform: uppercase;
+         font-weight: normal;
+         letter-spacing: 5px;
+         }
+         .listen-button {
+            border: 1px solid #4f4f4f;
+            font-family: inherit;
+            position: absolute;
+            left: 130px;
+            top: 530px;
+            height: 70px;
+            width: 400px;
+            font-size: 20px;
+            background: none;
+            letter-spacing: 2px;
+            text-align: center;
+            line-height: 68px;
+         }
+         .listen-button {
+         transition-duration: 0.4s;
+         }
+         .listen-button:hover {
+         background-color: white;
+         }
+         .intro {
+         width: 50%;
+         margin: auto;
+         text-align: left;
+         padding-top: 200px;
+         padding-bottom: 200px;
+         line-height: 1.6;
+         }
+         .footer {
+         height: 40px;
+         padding: 5px;
+         }
