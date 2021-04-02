@@ -1,198 +1,196 @@
-        @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,700&display=swap');
-         * {
-         box-sizing: border-box;
-         margin-top: 0px;
-         }
-         body {
-         color: #878787;
-         margin: 0;
-         font-family: "Raleway", sans-serif !important;
-         text-align: center;
-         }
-         .top-image {
-         max-width: 1000px;
-         text-align: center;
-         margin-top: 20px;
-         }
-         a {
-         text-decoration: none;
-         }
-         .nav-container {
-         height: 100px;
-         display: flex;
-         }
-         .nav-div {
-            float: left;
-            width: 50%;
-         }
-         .nav-bar {
-         list-style-type: none;
-         display: flex;
-         float: right;
-         padding-top: 20px;
-         padding-right: 20px;
-         }
-         .nav-bar-link {
-         color: #4f4f4f;
-         font-size: 18px;
-         letter-spacing: 2px;
-         padding: 20px;
-         }
-         .main-header-title {
-         text-align: left;
-         font-size: 40px;
-         color: #4f4f4f;
-         text-transform: uppercase;
-         font-weight: normal;
-         padding-top: 20px;
-         padding-left: 50px;
-         letter-spacing: 5px;
-         }
-         a {
-         color: inherit;
-         }
-         .spotify {
-         margin-top: 30px;
-         }
-         hr {
-            width: 400px;
-            margin-top: 70px;
-            margin-bottom: 70px;
-         }
-         .quote {
-         color: #4f4f4f;
-         font-size: 25px;
-         letter-spacing: 2px;
-         }
-         .box {
-         width: 1000px;
-         margin: auto;
-         display: flex;
-         }
-         .card {
-         width: 500px;
-         padding: 0px;
-         text-align: left;
-         height: 320px;
-         margin: 0px;
-         }
-         .main-header-intro {
-         line-height: 1.5em;
-         width: 50%;
-         margin: auto;
-         padding: 40px;
-         color: #333333;
-         text-align: justify;
-         }
-         .description {
-         line-height: 1.6;
-         padding-top: 120px;
-         padding-right: 20px;
-         }
-         .soundcloud {
-         margin-top: 20px;
-         padding-left: 20px;
-         padding-top: 20px
-         font-size: 10px;
-         color: #cccccc;
-         line-break: anywhere;
-         word-break: normal;
-         overflow: hidden;
-         white-space: nowrap;
-         text-overflow: ellipsis;
-         font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-         font-weight: 100
-         }
-         .about {
-         width: 1000px;
-         margin: auto;
-         text-align: left;
-         padding-top: 30px;
-         padding-bottom: 30px;
-         line-height: 1.6;
-         }
-         .borderlines-lyrics {
-         max-width: 1000px;
-         text-align: center;
-         margin-bottom: 60px;
-         border: 1px solid black;
-         }
-         .footer {
-         height: 40px;
-         padding: 5px;
-         }
-
-
-         @media only screen and (max-width: 600px) {
-         ul {
-         height: 200%;
-         display: flex;
-         flex-direction: column;
-         }
-         .nav-div {
-         display: flex;
-         justify-content: center;
-         margin: auto;
-         }
-         .nav-bar {
-         padding: 0px;
-         }
-         .nav-container {
-         display: flex;
-         flex-direction: column;
-         margin-bottom: 350px;
-         }
-         .nav-bar-link {
-         display: flex;
-         justify-content: center;
-         background-color: #c2c2c2;
-         border: 1px solid #4f4f4f;
-         margin-top: 20px;
-         }
-         .main-header-title {
-         display: flex;
-         padding-left: 0px;
-         }
-         .top-image, .borderlines-lyrics {
-         max-width: 600px;
-         }
-         .spotify {
-         max-width: 500px;
-         }
-         .quote {
-         max-width: 400px;
-         margin: auto;
-         }
-         .box {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-         }
-         .card {
-         width: 100%;
-         height: 200px;
-         margin-top: 0px;
-         }
-         .description, .about {
-            max-width: 450px;
-            text-align: center;
-            padding-top: 35px;
-            padding-right: 0px;
-            margin: auto;
-         }
-         .soundcloud {
-            padding-right: 20px;
-            max-width: 600px;
-         }
-         .video {
-            width: 600px;
-            height: 400px;
-            padding-right: 20px;
-         }
-         .video-line {
-            margin-top: 200px;
-         }
-         }
-         @media only screen and (min-width: 601px) {
-         }
-         }  
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,700&display=swap');
+* {
+box-sizing: border-box;
+margin-top: 0px;
+}
+body {
+color: #878787;
+margin: 0;
+font-family: "Raleway", sans-serif !important;
+text-align: center;
+}
+.top-image {
+max-width: 1000px;
+text-align: center;
+margin-top: 20px;
+}
+a {
+text-decoration: none;
+}
+.nav-container {
+height: 100px;
+display: flex;
+}
+.nav-div {
+float: left;
+width: 50%;
+}
+.nav-bar {
+list-style-type: none;
+display: flex;
+float: right;
+padding-top: 20px;
+padding-right: 20px;
+}
+.nav-bar-link {
+color: #4f4f4f;
+font-size: 18px;
+letter-spacing: 2px;
+padding: 20px;
+}
+.main-header-title {
+text-align: left;
+font-size: 40px;
+color: #4f4f4f;
+text-transform: uppercase;
+font-weight: normal;
+padding-top: 20px;
+padding-left: 50px;
+letter-spacing: 5px;
+}
+a {
+color: inherit;
+}
+.spotify {
+margin-top: 30px;
+}
+hr {
+width: 400px;
+margin-top: 70px;
+margin-bottom: 70px;
+}
+.quote {
+color: #4f4f4f;
+font-size: 25px;
+letter-spacing: 2px;
+}
+.box {
+width: 1000px;
+margin: auto;
+display: flex;
+}
+.card {
+width: 500px;
+padding: 0px;
+text-align: left;
+height: 320px;
+margin: 0px;
+}
+.main-header-intro {
+line-height: 1.5em;
+width: 50%;
+margin: auto;
+padding: 40px;
+color: #333333;
+text-align: justify;
+}
+.description {
+line-height: 1.6;
+padding-top: 120px;
+padding-right: 20px;
+}
+.soundcloud {
+margin-top: 20px;
+padding-left: 20px;
+padding-top: 20px
+font-size: 10px;
+color: #cccccc;
+line-break: anywhere;
+word-break: normal;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+font-weight: 100
+}
+.about {
+width: 1000px;
+margin: auto;
+text-align: left;
+padding-top: 30px;
+padding-bottom: 30px;
+line-height: 1.6;
+}
+.borderlines-lyrics {
+max-width: 1000px;
+text-align: center;
+margin-bottom: 60px;
+border: 1px solid black;
+}
+.footer {
+height: 40px;
+padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+ul {
+height: 200%;
+display: flex;
+flex-direction: column;
+}
+.nav-div {
+display: flex;
+justify-content: center;
+margin: auto;
+}
+.nav-bar {
+padding: 0px;
+}
+.nav-container {
+display: flex;
+flex-direction: column;
+margin-bottom: 350px;
+}
+.nav-bar-link {
+display: flex;
+justify-content: center;
+background-color: #c2c2c2;
+border: 1px solid #4f4f4f;
+margin-top: 20px;
+}
+.main-header-title {
+display: flex;
+padding-left: 0px;
+}
+.top-image, .borderlines-lyrics {
+max-width: 600px;
+}
+.spotify {
+max-width: 500px;
+}
+.quote {
+max-width: 400px;
+margin: auto;
+}
+.box {
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.card {
+width: 100%;
+height: 200px;
+margin-top: 0px;
+}
+.description, .about {
+max-width: 450px;
+text-align: center;
+padding-top: 35px;
+padding-right: 0px;
+margin: auto;
+}
+.soundcloud {
+padding-right: 20px;
+max-width: 600px;
+}
+.video {
+width: 600px;
+height: 400px;
+padding-right: 20px;
+}
+.video-line {
+margin-top: 200px;
+}
+}
+@media only screen and (min-width: 601px) {
+}
+}
