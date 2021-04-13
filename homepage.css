@@ -35,6 +35,35 @@ color: #4f4f4f;
 font-size: 18px;
 letter-spacing: 2px;
 padding: 20px;
+ animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 .nav-background {
 background: url("imgs/soak-cover-photo.jpg") top;
@@ -53,6 +82,11 @@ font-weight: normal;
 padding-top: 20px;
 padding-left: 50px;
 letter-spacing: 5px;
+ animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
 }
 a {
 color: inherit;
@@ -77,6 +111,20 @@ background: none;
 letter-spacing: 2px;
 text-align: center;
 line-height: 68px;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 3%;
+    width: 400px;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 400px;
+  }
 }
 .listen-button {
 transition-duration: 0.4s;
@@ -92,9 +140,43 @@ padding-top: 200px;
 padding-bottom: 200px;
 line-height: 1.6;
 }
+.text-link {
+text-decoration: underline;
+}
+.mailing-list {
+margin-bottom: 15px;
+}
+input, label {
+font-family: "Raleway", sans-serif !important;
+letter-spacing: 2px;
+}
+label {
+font-size: 18px;
+}
+#subscribe {
+font-family: inherit !important;
+letter-spacing: 2px;
+color: #878787;
+background-color: white;
+border: 1px solid #4f4f4f;
+text-align: center;
+transition-duration: 0.4s;
+}
+#subscribe:hover {
+background-color: #dedede;
+}
+#email {
+	margin-right: 20px;
+}
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+#hidden-input {position: absolute; left: -5000px;}
 .footer {
 height: 40px;
 padding: 5px;
+letter-spacing: 5px;
+}
+.email-input {
+	margin: 20px 0;
 }
 @media only screen and (max-width: 600px) {
 ul {
@@ -117,7 +199,7 @@ flex-direction: column;
 .nav-bar-link {
 display: flex;
 justify-content: center;
-background-color: #c2c2c2;
+background-color: #dedede;
 border: 1px solid #4f4f4f;
 margin-top: 20px;
 }
@@ -128,15 +210,12 @@ padding-left: 0px;
 .listen-button {
 position: absolute;
 left: 100px;
-background-color: #c2c2c2;
+background-color: #dedede;
 }
 .intro {
 text-align: center;
 padding-top: 100px;
 padding-bottom: 100px;
 width: 70%;
-}
-}
-@media only screen and (min-width: 601px) {
 }
 }
