@@ -14,11 +14,11 @@ max-width: 1000px;
 text-align: center;
 margin-top: 20px;
 margin-bottom: 40px;
- animation: fadeIn linear 1s;
-  -webkit-animation: fadeIn linear 1s;
-  -moz-animation: fadeIn linear 1s;
-  -o-animation: fadeIn linear 1s;
-  -ms-animation: fadeIn linear 1s;
+animation: fadeIn linear 1s;
+-webkit-animation: fadeIn linear 1s;
+-moz-animation: fadeIn linear 1s;
+-o-animation: fadeIn linear 1s;
+-ms-animation: fadeIn linear 1s;
 }
 a {
 text-decoration: none;
@@ -43,35 +43,31 @@ color: #4f4f4f;
 font-size: 18px;
 letter-spacing: 2px;
 padding: 20px;
- animation: fadeIn linear 1s;
-  -webkit-animation: fadeIn linear 1s;
-  -moz-animation: fadeIn linear 1s;
-  -o-animation: fadeIn linear 1s;
-  -ms-animation: fadeIn linear 1s;
+animation: fadeIn linear 1s;
+-webkit-animation: fadeIn linear 1s;
+-moz-animation: fadeIn linear 1s;
+-o-animation: fadeIn linear 1s;
+-ms-animation: fadeIn linear 1s;
 }
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+0% {opacity:0;}
+100% {opacity:1;}
 }
-
 @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+0% {opacity:0;}
+100% {opacity:1;}
 }
-
 @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+0% {opacity:0;}
+100% {opacity:1;}
 }
-
 @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+0% {opacity:0;}
+100% {opacity:1;}
 }
-
 @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+0% {opacity:0;}
+100% {opacity:1;}
 }
 .main-header-title {
 text-align: left;
@@ -82,11 +78,11 @@ font-weight: normal;
 padding-top: 20px;
 padding-left: 50px;
 letter-spacing: 5px;
- animation: fadeIn linear 1s;
-  -webkit-animation: fadeIn linear 1s;
-  -moz-animation: fadeIn linear 1s;
-  -o-animation: fadeIn linear 1s;
-  -ms-animation: fadeIn linear 1s;
+animation: fadeIn linear 1s;
+-webkit-animation: fadeIn linear 1s;
+-moz-animation: fadeIn linear 1s;
+-o-animation: fadeIn linear 1s;
+-ms-animation: fadeIn linear 1s;
 }
 a {
 color: inherit;
@@ -105,12 +101,12 @@ font-size: 20px;
 background: none;
 letter-spacing: 2px;
 text-align: center;
-line-height: 68px;
 padding: 25px;
 transition-duration: 0.4s;
 }
 .listen-button:hover {
 background-color: #dedede;
+cursor: pointer;
 }
 hr {
 width: 400px;
@@ -150,7 +146,7 @@ padding-right: 20px;
 .soundcloud {
 margin-top: 20px;
 padding-left: 20px;
-padding-top: 20px
+padding-top: 20px;
 font-size: 10px;
 color: #cccccc;
 line-break: anywhere;
@@ -159,7 +155,7 @@ overflow: hidden;
 white-space: nowrap;
 text-overflow: ellipsis;
 font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-font-weight: 100
+font-weight: 100;
 }
 .about {
 width: 1000px;
@@ -169,7 +165,11 @@ padding-top: 0px;
 padding-bottom: 30px;
 line-height: 1.6;
 }
-.borderlines-lyrics {
+iframe {
+overflow: hidden;
+border: none;
+}
+.lyrics {
 max-width: 1000px;
 text-align: center;
 margin-bottom: 60px;
@@ -196,9 +196,10 @@ transition-duration: 0.4s;
 }
 #subscribe:hover {
 background-color: #dedede;
+cursor: pointer;
 }
 #email {
-	margin-right: 20px;
+margin-right: 20px;
 }
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 #hidden-input {position: absolute; left: -5000px;}
@@ -208,7 +209,7 @@ padding: 5px;
 letter-spacing: 5px;
 }
 .email-input {
-	margin: 20px 0;
+margin: 20px 0;
 }
 .footer {
 height: 40px;
@@ -250,7 +251,7 @@ margin-top: 20px;
 display: flex;
 padding-left: 0px;
 }
-.top-image, .borderlines-lyrics {
+.top-image, .lyrics {
 max-width: 600px;
 }
 .spotify {
@@ -279,6 +280,7 @@ margin: auto;
 }
 .soundcloud {
 padding-right: 20px;
+padding-left: 100px;
 max-width: 600px;
 padding-top: 50px;
 }
