@@ -31,7 +31,7 @@ padding-top: 20px;
 padding-right: 20px;
 }
 .nav-bar-link {
-color: #4f4f4f;
+color: white;
 font-size: 18px;
 letter-spacing: 2px;
 padding: 20px;
@@ -53,7 +53,7 @@ padding: 12px 16px;
 text-decoration: none;
 display: block;
 text-align: left;
-color: #4f4f4f;
+color: white;
 letter-spacing: 2px;
 position: relative;
 left: 4px;
@@ -96,8 +96,9 @@ animation: fadeIn linear 0.5s;
 100% {opacity:1;}
 }
 .nav-background {
-background: url("imgs/soak-cover-photo.jpg") top;
+background: url("imgs/pp-cover-photo.jpg") top;
 background-size: cover;
+opacity: 85%;
 min-height: 1000px;
 background-attachment: fixed;
 background-position: center;
@@ -106,7 +107,7 @@ background-repeat: no-repeat;
 .main-header-title {
 text-align: left;
 font-size: 40px;
-color: #4f4f4f;
+color: white;
 text-transform: uppercase;
 font-weight: normal;
 padding-top: 20px;
@@ -135,7 +136,7 @@ position: absolute;
 left: 130px;
 top: 530px;
 height: 70px;
-width: 400px;
+width: 440px;
 font-size: 20px;
 background: none;
 letter-spacing: 2px;
@@ -147,11 +148,11 @@ animation-name: slidein;
 @keyframes slidein {
 from {
 margin-left: 3%;
-width: 400px;
+width: 440px;
 }
 to {
 margin-left: 0%;
-width: 400px;
+width: 440px;
 }
 }
 .listen-button {
@@ -252,7 +253,7 @@ max-width: 100%;
 }
 .listen-button {
 position: absolute;
-left: 88px;
+left: 68px;
 background-color: #dedede;
 }
 .intro {
