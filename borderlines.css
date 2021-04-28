@@ -236,9 +236,6 @@ transition-duration: 0.4s;
 background-color: #dedede;
 cursor: pointer;
 }
-#email {
-margin-right: 20px;
-}
 #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 #hidden-input {position: absolute; left: -5000px;}
 .footer {
